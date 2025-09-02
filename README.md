@@ -40,4 +40,4 @@ Projeto criado por Felipe para estudos de Frontend e Typescript na ADA.
 =======
 # to-do-list
 This project is a simple To-Do List application, designed to practice HTML, CSS and JavaScript concepts.
->>>>>>> ed1f1535557ed3f71cff1b39935a3aae758965e4
+
