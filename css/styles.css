@@ -1,0 +1,98 @@
+body {
+  background: #e3f2fd;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+h1 {
+  color: #1976d2;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #90caf9;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  background: #fff;
+}
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1565c0;
+}
+
+section {
+  width: 100%;
+  max-width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #fff;
+  border: 1px solid #bbdefb;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.05);
+}
+
+li span {
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+}
+
+li input[type="checkbox"] {
+  accent-color: #1976d2;
+  width: 18px;
+  height: 18px;
+}
+
+li button {
+  background: #e57373;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+li button:hover {
+  background: #c62828;
+}
