@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Lista de Tarefas
 
 Este projeto é uma aplicação simples de lista de tarefas (To-Do List), desenvolvida para praticar conceitos de HTML, CSS e JavaScript.
